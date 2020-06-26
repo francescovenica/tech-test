@@ -155,7 +155,7 @@ const App = () => {
             {(!isTimerActive && figure.length > 0) && (
               <form className="form" onSubmit={onSubmit}>
                 <input type="text" name="nome" value={nome} onChange={e => setNome(e.target.value)} />
-                <button id="test-btn-submit" type="submit">Salve partita</button>
+                <button id="test-btn-submit" type="submit">Salva partita</button>
                 <span>{formError.message}</span>
               </form>
             )}
