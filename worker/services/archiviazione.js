@@ -1,7 +1,7 @@
 const axios = require('axios');
 
 // Questa dovrebbe essere env
-const API_URL = 'http://local.heply/api';
+const API_URL = 'https://app.francescovenica.com/api';
 
 module.exports = {
   archivia: (connectionId, cache, object) => new Promise((resolve, reject) => {
