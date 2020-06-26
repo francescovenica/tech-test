@@ -1,0 +1,35 @@
+.navbar {
+  h2 {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .peso-container {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    .peso {
+      padding-bottom: 15px;
+      
+      span {
+        display: block;
+        font-size: 30px;
+        font-weight: bold;
+        &.low {
+          color: green;
+        }
+        &.medium {
+          color: orange;
+        }
+        &.high {
+          color: red;
+        }
+      }
+    }
+  }
+
+  .classifica {
+    padding-bottom: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}

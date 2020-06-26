@@ -1,0 +1,22 @@
+.esaminatori-container {
+  h2 {
+    margin-top: 15px;
+  }
+  .esaminatori {
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    justify-content: space-between;
+    .esaminatore {
+      border: 2px solid blue;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      height: 150px;
+      width: 30%;
+      &.active {
+        background-color: red;
+      }
+    }
+  }
+}

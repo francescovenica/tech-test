@@ -1,0 +1,1 @@
+module.exports = (context, text) => console.log(`[${context}]: `, text);

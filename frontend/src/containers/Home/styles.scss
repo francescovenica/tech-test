@@ -1,0 +1,36 @@
+.home {
+  display: flex;
+  height: 100%;
+  main {
+    width: 70%;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    h1{ 
+      margin-bottom: 15px;
+    }
+
+    .controls {
+      margin-top: 15px;
+      margin-bottom: 30px;
+
+      .form {
+        display: inline-block;
+
+        input {
+          margin-right: 15px;
+          padding: 5px;
+        }
+
+        span {
+          color: red;
+        }
+      }
+    }
+  }
+  nav {
+    width: 30%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
