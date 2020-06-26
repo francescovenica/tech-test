@@ -44,7 +44,7 @@ const App = () => {
 
     if (peso > PESO_MAX) {
       stopGame();
-      return alert('Non ci sono esaminatori disponibili');
+      return alert('Hai perso, gli oggetti nel contenitore sono troppo pesanti!');
     }
 
   }, 1000, isTimerActive)

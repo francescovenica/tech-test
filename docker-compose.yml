@@ -2,18 +2,21 @@ version: "3.7"
 
 services:
   worker:
-    image: haply-front:latest
+    build:
+      context: ./worker
     ports:
       - "4000:4000"
 
   server:
-    image: haply-server:latest
+    build:
+      context: ./server
     ports:
       - "4001:4001"
     
   nginx_heply:
-    image: haply-worker:latest
     ports:
       - "80:80"    
+    build:
+      context: ./frontend
     volumes:
       - ./nginx:/etc/nginx/conf.d

@@ -13,7 +13,7 @@ const NavBar = ({ pesoCorrente, pesoArchivitao, alert, classifica, onInitClick }
       </div>
       <div className="peso-container">
         <div className="peso">
-          <h2>Peso attuale</h2>
+          <h2>Peso attuale (max 150kg)</h2>
           <span className={`${alert}`}>{pesoCorrente}</span>
         </div>
       </div>
